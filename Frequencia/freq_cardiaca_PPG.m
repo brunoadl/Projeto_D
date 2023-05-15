@@ -50,7 +50,7 @@ for i=1 : length(Filtrado_PB_2)-1
     derivada(i) = (Filtrado_PB_2(i+1)-Filtrado_PB_2(i));
 end
 %criou um vetor com a derivada do sinal - diferença entre o próximo ponto e
-%o atual
+%o atual ------
 
 %% for onde identifica o inÃ­cio de cada ciclo
 vetor_zero_cross = zeros(length(derivada), 1);
